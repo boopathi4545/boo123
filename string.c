@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     char str[100];
     int countDigits;
@@ -13,5 +13,4 @@ int main()
             countDigits++;
      }
     printf("\nDigits:%d",countdigits);
-    return 0;
 }
