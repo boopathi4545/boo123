@@ -2,16 +2,16 @@
 #include<string.h>
 int main() 
 {
-	char str[50];
+	char s[50];
 	int i,n;
 	printf("\nenter the alphanumeric string:\n");
-	scanf("%s",str);
-	n=strlen(str);
+	scanf("%s",s);
+	n=strlen(s);
 	for(i=0;i<n;i++)
 	{
-		if(str[i]>='0' && str[i]<='9')
+		if(s[i]>='0' && s[i]<='9')
 		{
-			printf("%c",str[i]);
+			printf("%c",s[i]);
 		}
 	}
 	return 0;
