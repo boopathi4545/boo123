@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() 
 {
-	int i,n,k,a[20];
-	scanf("%d %d",&n,&k);
-	for(i=1;i<=n;i++)
+	int i,b,k,a[20];
+	scanf("%d %d",&b,&k);
+	for(i=1;i<=b;i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	for(i=1;i<=n;i++)
+	for(i=1;i<=b;i++)
 	{
 		while(i==k)
 		{
